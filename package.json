@@ -1,5 +1,5 @@
 {
-  "name": "atlas-strapi",
+  "name": "strapi-admin-cmsexpress-ie",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,21 +11,24 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.0.1",
-    "strapi-admin": "3.0.1",
-    "strapi-utils": "3.0.1",
-    "strapi-plugin-content-type-builder": "3.0.1",
-    "strapi-plugin-content-manager": "3.0.1",
-    "strapi-plugin-users-permissions": "3.0.1",
-    "strapi-plugin-email": "3.0.1",
-    "strapi-plugin-upload": "3.0.1",
-    "strapi-connector-mongoose": "3.0.1"
+    "knex": "<0.20.0",
+    "sqlite3": "latest",
+    "strapi": "3.0.4",
+    "strapi-admin": "3.0.4",
+    "strapi-connector-bookshelf": "3.0.4",
+    "strapi-connector-mongoose": "^3.0.4",
+    "strapi-plugin-content-manager": "3.0.4",
+    "strapi-plugin-content-type-builder": "3.0.4",
+    "strapi-plugin-email": "3.0.4",
+    "strapi-plugin-upload": "3.0.4",
+    "strapi-plugin-users-permissions": "3.0.4",
+    "strapi-utils": "3.0.4"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "d5e6ad7d-ec96-4502-8bf7-55f18ff00de4"
+    "uuid": "951c2ab4-b164-44bf-94cc-5f6cca65909d"
   },
   "engines": {
     "node": ">=10.0.0",
