@@ -8,6 +8,8 @@ module.exports = ({ env }) => ({
       },
       options: {
         ssl: true,
+        useUnifiedTopology: "${process.env.USE_UNIFIED_TOPOLOGY || false}",
+        authenticationDatabase: "${process.env.DATABASE_AUTHENTICATION_DATABASE || ''}",
       },
     },
   },
