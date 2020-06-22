@@ -14,6 +14,7 @@ module.exports = ({ env }) => ({
       },
       options: {
         ssl: env.bool('DATABASE_SSL', true),
+        "useUnifiedTopology": "${process.env.USE_UNIFIED_TOPOLOGY || false}",
       },
     },
   },
